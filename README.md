@@ -2,6 +2,8 @@
 
 Start the Hazelcast server from $hazelcast-3.9.2\bin
 
-Run this application to see
+Add HazelClient.xml which configures local host 
 
-Endpoint : getCustomers
+Add objects to Map : http://localhost:7089/addCustomers
+
+Get objects from Map : http://localhost:7089/getCustomers
